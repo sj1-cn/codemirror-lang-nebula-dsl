@@ -1,19 +1,19 @@
 {
-  "name": "@codemirror/lang-java",
-  "version": "6.0.1",
-  "description": "Java language support for the CodeMirror code editor",
+  "name": "@sj1/codemirror-lang-ndsl",
+  "version": "6.0.2",
+  "description": "Nebula DSL support for the CodeMirror code editor",
   "scripts": {
     "test": "cm-runtests",
-    "prepare": "cm-buildhelper src/java.ts"
+    "prepare": "cm-buildhelper src/ndsl.ts"
   },
   "keywords": [
     "editor",
     "code"
   ],
   "author": {
-    "name": "Marijn Haverbeke",
-    "email": "marijn@haverbeke.berlin",
-    "url": "http://marijnhaverbeke.nl"
+    "name": "wangshilian",
+    "email": "wangshilian@sj1.cn",
+    "url": "https://sj1.cn"
   },
   "type": "module",
   "main": "dist/index.cjs",
@@ -27,13 +27,13 @@
   "license": "MIT",
   "dependencies": {
     "@codemirror/language": "^6.0.0",
-    "@lezer/java": "^1.0.0"
+    "@sj1/leser-nebula-dsl": "^2.0.6"
   },
   "devDependencies": {
     "@codemirror/buildhelper": "^1.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/codemirror/lang-java.git"
+    "url": "https://github.com/sj1-cn/codemirror-lang-nebula-dsl.git"
   }
 }

@@ -1,8 +1,8 @@
 <!-- NOTE: README.md is generated from src/README.md -->
 
-# @codemirror/lang-java [![NPM version](https://img.shields.io/npm/v/@codemirror/lang-java.svg)](https://www.npmjs.org/package/@codemirror/lang-java)
+# @codemirror/lang-ndsl [![NPM version](https://img.shields.io/npm/v/@codemirror/lang-ndsl.svg)](https://www.npmjs.org/package/@codemirror/lang-ndsl)
 
-[ [**WEBSITE**](https://codemirror.net/) | [**ISSUES**](https://github.com/codemirror/dev/issues) | [**FORUM**](https://discuss.codemirror.net/c/next/) | [**CHANGELOG**](https://github.com/codemirror/lang-java/blob/main/CHANGELOG.md) ]
+[ [**WEBSITE**](https://codemirror.net/) | [**ISSUES**](https://github.com/codemirror/dev/issues) | [**FORUM**](https://discuss.codemirror.net/c/next/) | [**CHANGELOG**](https://github.com/codemirror/lang-ndsl/blob/main/CHANGELOG.md) ]
 
 This package implements Java language support for the
 [CodeMirror](https://codemirror.net/) code editor.
@@ -12,7 +12,7 @@ number of [examples](https://codemirror.net/examples/) and the
 [documentation](https://codemirror.net/docs/).
 
 This code is released under an
-[MIT license](https://github.com/codemirror/lang-java/tree/main/LICENSE).
+[MIT license](https://github.com/codemirror/lang-ndsl/tree/main/LICENSE).
 
 We aim to be an inclusive, welcoming community. To make that explicit,
 we have a [code of
@@ -21,6 +21,6 @@ to communication around the project.
 
 ## API Reference
 
-@java
+@ndsl
 
-@javaLanguage
+@ndslLanguage

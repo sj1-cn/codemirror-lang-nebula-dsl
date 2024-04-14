@@ -1,12 +1,12 @@
-import {parser} from "@lezer/java"
+import {parser} from "@sj1/leser-nebula-dsl"
 import {flatIndent, continuedIndent, indentNodeProp, delimitedIndent, foldNodeProp, foldInside,
         LRLanguage, LanguageSupport} from "@codemirror/language"
 
 /// A language provider based on the [Lezer Java
-/// parser](https://github.com/lezer-parser/java), extended with
+/// parser](https://github.com/lezer-parser/ndsl), extended with
 /// highlighting and indentation information.
-export const javaLanguage = LRLanguage.define({
-  name: "java",
+export const ndslLanguage = LRLanguage.define({
+  name: "ndsl",
   parser: parser.configure({
     props: [
       indentNodeProp.add({
@@ -35,6 +35,6 @@ export const javaLanguage = LRLanguage.define({
 })
 
 /// Java language support.
-export function java() {
-  return new LanguageSupport(javaLanguage)
+export function ndsl() {
+  return new LanguageSupport(ndslLanguage)
 }
