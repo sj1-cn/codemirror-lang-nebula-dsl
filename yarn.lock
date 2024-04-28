@@ -190,10 +190,10 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.14.2.tgz#5d2d9dc96b436469dc74ef93de069b14fb12aace"
   integrity sha512-teAqzLT0yTYZa8ZP7zhFKEx4cotS8Tkk5XiqNMJhD4CpaWB1BHARE4Qy+RzwnXvSAYv+Q3jAqCVBS+PS+Yee8Q==
 
-"@sj1/leser-nebula-dsl@^7.0.1":
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/@sj1/leser-nebula-dsl/-/leser-nebula-dsl-7.0.1.tgz#bb67ff3a6c34bfba0d5bfb9e49248fc8d0d80ce2"
-  integrity sha512-AVIa5NaFlWASzhNJq6ubrKx2q6FkXe+jEBV63CdpRkhvPGjUoKkSoWmJuB/dr2RlEeHZUAfyRsqZcUbcBV4ZYg==
+"@sj1/leser-nebula-dsl@^7.1.2":
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/@sj1/leser-nebula-dsl/-/leser-nebula-dsl-7.1.2.tgz#5062404400d4f3841a817085e89d6afe27179e2a"
+  integrity sha512-Jdk6Z+8is0AGAamWj3P0aN0fsegZf1lmbXdOy2zm9XhRLGiHIpwGC3se3CXr2BI2AATyLoSs1S62HrAKvfsmbg==
   dependencies:
     "@lezer/common" "^1.2.0"
     "@lezer/highlight" "^1.0.0"
