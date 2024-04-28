@@ -1,6 +1,6 @@
 {
   "name": "@sj1/codemirror-lang-ndsl",
-  "version": "6.0.2",
+  "version": "7.0.1",
   "description": "Nebula DSL support for the CodeMirror code editor",
   "scripts": {
     "test": "cm-runtests",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "dependencies": {
     "@codemirror/language": "^6.0.0",
-    "@sj1/leser-nebula-dsl": "^2.0.6"
+    "@sj1/leser-nebula-dsl": "^7.0.1"
   },
   "devDependencies": {
     "@codemirror/buildhelper": "^1.0.0"
